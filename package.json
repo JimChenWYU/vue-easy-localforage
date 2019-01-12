@@ -23,12 +23,12 @@
   "author": "JimChen",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JimChenWYU/vue-localforage"
+    "url": "git+https://github.com/JimChenWYU/vue-easy-localforage"
   },
   "bugs": {
-    "url": "https://github.com/JimChenWYU/vue-localforage/issues"
+    "url": "https://github.com/JimChenWYU/vue-easy-localforage/issues"
   },
-  "homepage": "https://github.com/JimChenWYU/vue-localforage/blob/master/README.md",
+  "homepage": "https://github.com/JimChenWYU/vue-easy-localforage/blob/master/README.md",
   "license": "MIT",
   "dependencies": {
     "localforage": "^1.7.3"
