@@ -1,6 +1,6 @@
 # vue-localForage
 
-This repo is a [localForage](https://github.com/localForage/localForage) storage driver for [Vue](https://github.com/vuejs/vue)
+This repo is a [localForage](https://github.com/localForage/localForage) storage driver for [Vue].(https://github.com/vuejs/vue)
 
 To use vue-localForage, just drop a single JavaScript file after `vue.js` and `localforage.js` into your page:
 
