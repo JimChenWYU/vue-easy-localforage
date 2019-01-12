@@ -1,5 +1,5 @@
 /**
-* vue-localforage v1.0.0
+* vue-easy-localforage v1.0.0
 * (c) 2019 Jim Chen
 * @license MIT
 */

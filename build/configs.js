@@ -1,9 +1,12 @@
 const path = require('path')
 const buble = require('rollup-plugin-buble')
 const replace = require('rollup-plugin-replace')
-const version = process.env.VERSION || require('../package.json').version
+const packageJson = require('../package.json')
+const version = process.env.VERSION || packageJson.version
+const name = process.env.NAME || packageJson.name
+
 const banner =`/**
-* vue-localforage v${version}
+* ${name} v${version}
 * (c) ${new Date().getFullYear()} Jim Chen
 * @license MIT
 */`
@@ -15,24 +18,24 @@ function resolve (dir) {
 const config = {
   umdDev: {
     input: resolve('src/index.js'),
-    file: resolve('dist/vue-localforage.js'),
+    file: resolve(packageJson.unpkg),
     format: 'umd',
     env: 'development'
   },
   umdProd: {
     input: resolve('src/index.js'),
-    file: resolve('dist/vue-localforage.min.js'),
+    file: resolve(packageJson.uglify),
     format: 'umd',
     env: 'production'
   },
   commonjs: {
     input: resolve('src/index.js'),
-    file: resolve('dist/vue-localforage.common.js'),
+    file: resolve(packageJson.main),
     format: 'cjs'
   },
   esm: {
     input: resolve('src/index.esm.js'),
-    file: resolve('dist/vue-localforage.esm.js'),
+    file: resolve(packageJson.module),
     format: 'es'
   }
 }

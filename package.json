@@ -1,15 +1,16 @@
 {
-  "name": "vue-localforage",
+  "name": "vue-easy-localforage",
   "version": "1.0.0",
   "description": "Localforage for vue",
-  "main": "dist/vue-localforage.common.js",
-  "module": "dist/vue-localforage.esm.js",
-  "unpkg": "dist/vue-localforage.js",
+  "main": "dist/vue-easy-localforage.common.js",
+  "module": "dist/vue-easy-localforage.esm.js",
+  "unpkg": "dist/vue-easy-localforage.js",
+  "uglify": "dist/vue-easy-localforage.min.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config examples/webpack.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config example/webpack.conf.js",
     "dev:dist": "rollup -wm -c build/rollup.dev.conf.js",
     "build": "node build/build.js",
     "lint": "eslint --fix src"

@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App'
 
-import VueLocalforage from 'vue-localforage'
-Vue.use(VueLocalforage)
+import VueEasyLocalforage from 'vue-easy-localforage'
+Vue.use(VueEasyLocalforage)
 
 new Vue({
   el: '#app',

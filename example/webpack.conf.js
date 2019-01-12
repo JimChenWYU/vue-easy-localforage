@@ -37,7 +37,7 @@ const devWebpackConfig = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      'vue-localforage$': resolve('../src/index.esm.js'),
+      'vue-easy-localforage$': resolve('../src/index.esm.js'),
       '@': resolve('src')
     }
   },
