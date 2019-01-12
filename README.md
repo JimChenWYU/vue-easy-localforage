@@ -54,7 +54,7 @@ let val2 = Vue.localforage.getItem('foo')
 
 Two ways are equivalent.
 
-The other api is same as [localForage](https://github.com/localForage/localForage), you can see the [documentation](https://localforage.github.io/localForage/).
+The other api are same as [localForage](https://github.com/localForage/localForage), you can see the [documentation](https://localforage.github.io/localForage/).
 
 ## License
 
