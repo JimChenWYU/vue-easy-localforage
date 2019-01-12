@@ -1,6 +1,6 @@
 {
   "name": "vue-easy-localforage",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Localforage for vue",
   "main": "dist/vue-easy-localforage.common.js",
   "module": "dist/vue-easy-localforage.esm.js",
